@@ -15,16 +15,18 @@ namespace Ispit.Konzola
             for (int i = 0;i < 3;i++)
             {
                 Ucenik ucenik = new Ucenik();
-                Console.Write("Unesite ime učenika");
+                Console.Write("Unesite ime učenika: ");
                 ucenik.Ime = Console.ReadLine();
-                Console.Write("Unesite prezime učenika");
+                Console.Write("Unesite prezime učenika: ");
                 ucenik.Prezime = Console.ReadLine();
-                Console.Write("Unesite datum rođenja učenika u formatu godina.mjesec.dan");
+                Console.Write("Unesite datum rođenja učenika u formatu godina.mjesec.dan : ");
                 ucenik.DatumRodjenja=DateTime.Parse(Console.ReadLine());
-                Console.Write("Unesite prosjek učenika (mora biti od 1 do 5");
+                Console.Write("Unesite prosjek učenika (mora biti od 1 do 5) i pisati zarez a ne točku! : ");
                 ucenik.Prosjek = double.Parse(Console.ReadLine());
 
                 listaUcenika.Add(ucenik);
+
+                Console.WriteLine(ucenik.Prosjek);
             }
             foreach (Ucenik u in listaUcenika)
             {
