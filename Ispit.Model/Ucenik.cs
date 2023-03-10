@@ -15,7 +15,7 @@ namespace Ispit.Model
 
         public void Starost()
         {
-            Console.WriteLine("Starost je {0}",DateTime.Now.Year - DatumRodjenja.Year);
+            Console.WriteLine("Starost je {0} godina",DateTime.Now.Year - DatumRodjenja.Year);
         }
         public string IspisProsjeka()
         {
