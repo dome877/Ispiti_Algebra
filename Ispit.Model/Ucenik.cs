@@ -13,9 +13,32 @@ namespace Ispit.Model
         public DateTime DatumRodjenja { get; set; }
         public double Prosjek { get; set; }
 
-        public DateTime Starost()
+        public void Starost()
         {
-            
+            Console.WriteLine("Starost je {0}",DateTime.Now - DatumRodjenja);
+        }
+        public string IspisProsjeka()
+        {
+            if (Prosjek>=1 && Prosjek <= 1.49)
+            {
+                return "Nedovoljan";
+            }
+            else if (Prosjek >= 1.50 && Prosjek <= 2.49)
+            {
+                return "Dovoljan";
+            }
+            else if (Prosjek >= 2.50 && Prosjek <= 3.49)
+            {
+                return "Dobar";
+            }
+            else if (Prosjek >= 3.50 && Prosjek <= 4.49)
+            {
+                return "Vrlo Dobar";
+            }
+            else if (Prosjek >= 4.50 && Prosjek <= 5)
+            {
+                return "Odličan";
+            }
         }
     }
 }
