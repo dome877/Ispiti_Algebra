@@ -24,9 +24,7 @@ namespace Ispit.Konzola
                 Console.Write("Unesite prosjek učenika (mora biti od 1 do 5) i pisati zarez a ne točku! : ");
                 ucenik.Prosjek = double.Parse(Console.ReadLine());
 
-                listaUcenika.Add(ucenik);
-
-                Console.WriteLine(ucenik.Prosjek);
+                listaUcenika.Add(ucenik); 
             }
             foreach (Ucenik u in listaUcenika)
             {
