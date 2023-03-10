@@ -23,6 +23,14 @@ namespace Ispit.Konzola
                 ucenik.DatumRodjenja=DateTime.Parse(Console.ReadLine());
                 Console.Write("Unesite prosjek učenika (mora biti od 1 do 5");
                 ucenik.Prosjek = double.Parse(Console.ReadLine());
+
+                listaUcenika.Add(ucenik);
+            }
+            foreach (Ucenik u in listaUcenika)
+            {
+                Console.WriteLine("Podatci o uceniku: {0} {1}", u.Ime, u.Prezime);
+                u.Starost();
+                Console.WriteLine("Prosjek je: {0} {1}", u.IspisProsjeka(),u.Prosjek);
             }
             Console.ReadKey();
         }
