@@ -39,6 +39,10 @@ namespace Ispit.Model
             {
                 return "Odličan";
             }
+            else
+            {
+                return "nije dobar raspon unesen";
+            }
         }
     }
 }
