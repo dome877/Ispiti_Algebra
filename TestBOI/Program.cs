@@ -11,6 +11,7 @@ namespace TestBOI
         static void Main(string[] args)
         {
             Console.WriteLine("Test push");
+            Console.WriteLine("Testboi");
             Console.ReadKey();
         }
     }
