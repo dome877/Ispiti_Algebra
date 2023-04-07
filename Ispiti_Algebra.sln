@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ispit.Konzola", "Ispit.Konz
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IspitNapredno", "IspitNapredno\IspitNapredno.csproj", "{FBC2902B-8A86-40AB-A7B1-FD24EF59F11A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ispit.Narudzba", "Ispit.Narudzba\Ispit.Narudzba.csproj", "{8C195AA7-AD13-4A6D-BAD6-5F8ED5728C07}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{FBC2902B-8A86-40AB-A7B1-FD24EF59F11A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FBC2902B-8A86-40AB-A7B1-FD24EF59F11A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FBC2902B-8A86-40AB-A7B1-FD24EF59F11A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C195AA7-AD13-4A6D-BAD6-5F8ED5728C07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C195AA7-AD13-4A6D-BAD6-5F8ED5728C07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C195AA7-AD13-4A6D-BAD6-5F8ED5728C07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C195AA7-AD13-4A6D-BAD6-5F8ED5728C07}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

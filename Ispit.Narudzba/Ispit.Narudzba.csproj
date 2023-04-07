@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FBC2902B-8A86-40AB-A7B1-FD24EF59F11A}</ProjectGuid>
+    <ProjectGuid>{8C195AA7-AD13-4A6D-BAD6-5F8ED5728C07}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>IspitNapredno</RootNamespace>
-    <AssemblyName>IspitNapredno</AssemblyName>
+    <RootNamespace>Ispit.Narudzba</RootNamespace>
+    <AssemblyName>Ispit.Narudzba</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,13 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Distributer1.cs" />
-    <Compile Include="Narudzba1.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include=".editorconfig" />
     <None Include="App.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
