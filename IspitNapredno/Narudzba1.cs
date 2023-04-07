@@ -8,14 +8,21 @@ namespace IspitNapredno
 {
     internal class Narudzba1
     {
-        public delegate void PredajNarudzbu(Narudzba1 narudzba);
+        public string Naziv { get; set; }
+        public DateTime DatumNarudzbe { get; private set; }
 
         public event PredajNarudzbu NarudzbaPredana;
-        public string Naziv { get; set; }
+        public delegate void PredajNarudzbu(Narudzba1 narudzba);
+
+        public Narudzba1(string naziv)
+        {
+            Naziv = naziv;
+        }
 
         public void KreirajNarudzbu()
         {
-            Console.WriteLine("Narudzba {0} je narucena", this.Naziv);
+
+            DatumNarudzbe = DateTime.Now;
             NarudzbaPredana?.Invoke(this);
         }
     }

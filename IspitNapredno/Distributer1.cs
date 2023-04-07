@@ -13,7 +13,6 @@ namespace IspitNapredno
         public void KrecemSDostavom()
         {
             NarudzbaUIsporuci?.Invoke(DateTime.Now);
-            Console.WriteLine("Narudzba je istovarena u kamion i krenula {0}");
         }
     }
 }
