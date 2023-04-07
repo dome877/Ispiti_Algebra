@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ispit.Model", "Ispit.Model\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ispit.Konzola", "Ispit.Konzola\Ispit.Konzola.csproj", "{DB130A19-7195-4991-852A-B6C6F2B31898}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IspitNapredno", "IspitNapredno\IspitNapredno.csproj", "{FBC2902B-8A86-40AB-A7B1-FD24EF59F11A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{DB130A19-7195-4991-852A-B6C6F2B31898}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB130A19-7195-4991-852A-B6C6F2B31898}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB130A19-7195-4991-852A-B6C6F2B31898}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBC2902B-8A86-40AB-A7B1-FD24EF59F11A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBC2902B-8A86-40AB-A7B1-FD24EF59F11A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBC2902B-8A86-40AB-A7B1-FD24EF59F11A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBC2902B-8A86-40AB-A7B1-FD24EF59F11A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
